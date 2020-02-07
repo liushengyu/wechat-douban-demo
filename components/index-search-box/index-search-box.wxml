@@ -1,0 +1,17 @@
+<view class="container">
+  <navigator url="../../pages/search/search" class="searh-bar" hover-class="navigator-hover">
+  <view class="search-icon">
+    <image src="../../images/icon_search.png"></image>
+  </view>
+  <text class="search-inplace">请输入书名/作者/ISBN</text>
+  <view class="search-ensure">搜索</view>
+  </navigator>
+
+  <swiper class="swiper-pics" indicator-dots="{{showIndicatorDots}}" autoplay="{{sliderAutoPlay}}">
+  <block wx:for="{{bannerPics}}" wx:key="*this">
+  <swiper-item >
+  <image src="{{item.url}}" class="slider-image"></image>
+  </swiper-item>
+  </block>
+  </swiper>
+</view>

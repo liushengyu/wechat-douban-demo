@@ -1,0 +1,14 @@
+/**index.wxss**/
+
+.divide-banner{
+  display: flex;
+  height:80rpx;
+  font-size: 30rpx;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10rpx 0 10rpx;
+}
+
+.next-group{
+  color:gray;
+}

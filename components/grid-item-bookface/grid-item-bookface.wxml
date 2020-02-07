@@ -1,0 +1,11 @@
+<!--components/grid-item-bookface/grid-item-bookface.wxml-->
+<view class="bookface-grid-item">
+  <view>
+    <image class="bookface-grid-item-img" src="{{item.faceUrl}}"></image>
+  </view>
+  <text class="bookface-grid-item-title">{{item.title}}</text>
+  <view class="rating-container">
+  <image src="{{item.rating.block}}"></image>
+  <text> {{item.rating.aver}}</text>
+  </view>
+</view>

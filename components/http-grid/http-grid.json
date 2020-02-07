@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "component-grid-item-bookface":"../grid-item-bookface/grid-item-bookface"
+  }
+}

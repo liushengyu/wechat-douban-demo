@@ -1,0 +1,5 @@
+/* components/http-grid/http-grid.wxss */
+.container{
+  display: flex;
+  padding:0 25rpx 0 25rpx;
+}

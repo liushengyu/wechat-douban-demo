@@ -1,0 +1,19 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/search/search"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ffac2d",
+    "navigationBarTitleText": "豆瓣读书小程序",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": false
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "usingComponents": {
+    "component-index-search-box": "../../components/index-search-box/index-search-box",
+    "component-http-grid": "../../components/http-grid/http-grid"
+  }
+}

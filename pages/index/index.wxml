@@ -1,0 +1,14 @@
+<!--index.wxml-->
+<view>
+<scroll-view scroll-y="{{true}}">
+  <component-index-search-box>
+  </component-index-search-box>
+  <view class="divide-banner">
+  <view> 您可能感兴趣的</view>
+  <view class="next-group" bindtap="toRefresh">换一批</view>
+  </view>
+
+  <component-http-grid></component-http-grid>
+</scroll-view>
+ 
+</view>
